@@ -3,7 +3,7 @@ let Discord = require("discord.js");
 let client = new Discord.Client();
 
 client.on("ready", () => {
-  client.user.setActivity("קורס פייתון דיגיטלי", { type: "STREAMING" });
+  client.user.setActivity("קורס פייתון דיגיטלי", { type: "WATCHING" });
 });
 
 client.on("message", (message) => {
