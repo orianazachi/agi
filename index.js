@@ -7,7 +7,7 @@ client.on("ready", () => {
 });
 
 client.on("message", (message) => {
-  if (message.mentions.has(client.user)) {
+  if (message.mentions.users.has(client.user.id)) {
     let answers = [
     "כשאתה רואה שגיאה בקוד, נסה לקרוא לו 'חמור שופך קפה' במקום להתרגז. זה ישפר את המצב הרוח שלך וגם יעזור לך למצוא את הטעות.",
       "אם אתה מסתבך עם קוד מורכב, נסה להוסיף כמה צבעוניות לקוד שלך. אולי זה יקנה לך את הרוח וגם יסייע לך להבין אותו יותר טוב.",
